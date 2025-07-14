@@ -1,0 +1,30 @@
+*{
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+}
+
+body{
+    background-color: rgb(82, 198, 211);
+}
+
+td{
+    border: 2px solid black;
+}
+
+.rightuppercorner{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    left: 600px;
+    top: 50px;
+    right: 50px;
+}
+
+img{
+    border: 5px solid black;
+}
+
+header{
+    display: block;
+    
+}

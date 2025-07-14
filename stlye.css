@@ -1,0 +1,55 @@
+* {
+    background-color: rgb(171, 171, 4);
+}
+
+p {
+    background-color: rgb(246, 177, 48);
+    color: black;
+    width: 30vw;
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-style:normal;
+    font-weight: bolder;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.login {
+    border: 2px solid black;
+    box-shadow: 3px 6px 9px 1px black;
+    border-style: groove;
+    border-radius: 10px;
+}
+
+.txt {
+    background-color: rgb(246, 177, 48);
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    font-size: medium;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.type {
+    background-color: white;
+    /* width: auto; */
+    color: black;
+    font-weight: 500;
+    font-style: normal;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+
+div {
+    background-color: rgb(246, 177, 48);
+    /* color: white; */
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+}

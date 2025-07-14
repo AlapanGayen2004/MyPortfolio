@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <!-- <link rel="stylesheet" href="stlye.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+
+        .box{
+            width: 350px;
+            height: 100px;
+            border: 2px solid white;
+        }
+
+        .login {
+            color: white;
+            margin: auto;
+            border-radius: 20px;
+            width: 40vw;
+            display: flex-block;
+            justify-content: center;
+            font-family: "Baloo Bhaijaan 2", sans-serif;
+            /* position: absolute; */
+        }
+
+        .type {
+            padding: 10px;
+            margin: 10px;
+            border: 2px solid white;
+            position: relative;
+            top: 210px;
+            left: -15px;
+        }
+
+        #loginHead {
+            display: flex;
+            justify-content: center;
+            font-size: xx-large;
+            position: relative;
+            top: 205px;
+            left: 0px;
+        }
+
+        #btn {
+            color: white;
+            border: 2px solid white;
+            display: flex;
+            /* justify-content: center; */
+            text-align:center;
+            height: 40px;
+            font-size: large;
+            background-color: rgb(84, 1, 84);
+            width: 30vw;
+            position: relative;
+            top: 220px;
+            left: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+
+        <!-- <div class="box"></div> -->
+
+        <div class="login">
+            <p id="loginHead">Login</p>
+
+            <input type="text" class=" login type" name="Username" placeholder="Username" required autofocus>
+            <!-- <br> -->
+            <input type="password" class="login type" name="Username" placeholder="Password" required>
+            <a href="./My CV Building Project/index.html"><input
+                    type="button" id="btn" class="login" name="button" value="Sign in"></a>
+        </div>
+    </main>
+</body>
+
+</html>

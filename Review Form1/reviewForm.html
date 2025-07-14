@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Form</title>
+</head>
+<body>
+    <h1>Review Form</h1>
+    <form action="post">
+        <div>
+            <label for="username">Enter Your UserName : </label>
+            <input type="text" id="username" name="username" placeholder="Enter Your UserName..." required autofocus>
+        </div>
+        <div>
+            <label>Gender : </label>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+        </div>
+        <div>
+            <label for="age">Age : </label>
+            <select name="Age" id="age" required>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+                <option value="32">32</option>
+                <option value="33">33</option>
+                <option value="34">34</option>
+                <option value="35">35</option>
+                <option value="36">36</option>
+                <option value="37">37</option>
+                <option value="38">38</option>
+                <option value="39">39</option>
+                <option value="40">40</option>
+                <option value="41">41</option>
+                <option value="42">42</option>
+                <option value="43">43</option>
+                <option value="44">44</option>
+                <option value="45">45</option>
+                <option value="46">46</option>
+                <option value="47">47</option>
+                <option value="48">48</option>
+                <option value="49">49</option>
+                <option value="50">50</option>
+            </select>
+        </div>
+        <div>
+            <h3>Please Rate our overall Website Textures : </h3>
+            <input type="radio" id="0" name="rating1" value="0" required>
+            <label for="rating1">0</label>
+            <input type="radio" id="1" name="rating1" value="1" required>
+            <label for="rating1">1</label>
+            <input type="radio" id="2" name="rating1" value="2" required>
+            <label for="rating1">2</label>
+            <input type="radio" id="3" name="rating1" value="3" required>
+            <label for="rating1">3</label>
+            <input type="radio" id="4" name="rating1" value="4" required>
+            <label for="rating1">4</label>
+            <input type="radio" id="5" name="rating1" value="5" required>
+            <label for="rating1">5</label>
+        </div>
+        <div>
+            <h3>Please Rate our overall Website Colour Contrast : </h3>
+            <input type="radio" id="0" name="rating2" value="0" required>
+            <label for="rating2">0</label>
+            <input type="radio" id="1" name="rating2" value="1" required>
+            <label for="rating2">1</label>
+            <input type="radio" id="2" name="rating2" value="2" required>
+            <label for="rating2">2</label>
+            <input type="radio" id="3" name="rating2" value="3" required>
+            <label for="rating2">3</label>
+            <input type="radio" id="4" name="rating2" value="4" required>
+            <label for="rating2">4</label>
+            <input type="radio" id="5" name="rating2" value="5" required>
+            <label for="rating2">5</label>
+        </div>
+        <div>
+            <h3>Please Rate our overall Website Information Content : </h3>
+            <input type="radio" id="0" name="rating3" value="0" required>
+            <label for="rating3">0</label>
+            <input type="radio" id="1" name="rating3" value="1" required>
+            <label for="rating3">1</label>
+            <input type="radio" id="2" name="rating3" value="2" required>
+            <label for="rating3">2</label>
+            <input type="radio" id="3" name="rating3" value="3" required>
+            <label for="rating3">3</label>
+            <input type="radio" id="4" name="rating3" value="4" required>
+            <label for="rating3">4</label>
+            <input type="radio" id="5" name="rating3" value="5" required>
+            <label for="rating3">5</label>
+        </div>
+        <div>
+            <h3>where do you get to know about us ? </h3>
+            <label for="source">Friends</label>
+            <input type="checkbox" id="Friends" name="source" value="Friends">
+            <label for="source">Relatives</label>
+            <input type="checkbox" id="Relatives" name="source" value="Relatives">
+            <label for="source">Colleague</label>
+            <input type="checkbox" id="Colleague" name="source" value="Colleague">
+            <label for="source">Allumni</label>
+            <input type="checkbox" id="Allumni" name="source" value="Allumni">
+        </div>
+        <div>
+            <label for="comment">Write your Feedback and Suggestions : </label>
+            <br>
+            <textarea name="Final Feedback" id="comment" rows="5" cols="40"></textarea>
+        </div>
+        <button>
+            <input type="button" id="Submit" name="Submit" value="Submit">
+            <label for="Submit"></label>
+        </button>
+    </form>
+    
+</body>
+</html>
